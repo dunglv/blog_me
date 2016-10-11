@@ -1,0 +1,107 @@
+html {
+    clear: both;
+}
+
+body {
+    font-family: "Hevertica", sans-serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0 auto;
+    background: #fff;
+    font-weight: normal;
+    line-height: 1;
+}
+
+a {
+    color: #008c33;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.container {
+    display: block;
+    width: 100%;
+}
+
+header {
+    background: #063320 url(../images/bg_header.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    display: block;
+    clear: both;
+}
+
+header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #063320;
+    opacity: 0.8;
+    z-index: 0;
+}
+
+#menu {
+    position: relative;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+#menu li {
+    float: left;
+    display: table;
+}
+
+#menu li a {
+    display: block;
+    padding: 1em 1.2em;
+}
+
+
+/*****************************BLOCK QUOTE**********************/
+
+#quote {
+    min-height: 400px;
+    width: 100%;
+    position: relative;
+    padding: 5em 0;
+}
+
+#quote .logo {
+    text-align: center;
+    padding: 2em 0;
+}
+
+#quote .logo img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+#quote h2 {
+    text-align: center;
+    color: #fff;
+}
+
+#quote .quote-text {
+    text-align: center;
+    color: #fff;
+}
+
+
+/*****************PERSONAL************************/
