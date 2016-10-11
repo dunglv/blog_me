@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Text</title>
 	<link rel="stylesheet" href="css/site.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&subset=vietnamese" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -65,7 +66,9 @@
 						</div> <!-- end col -->
 						<div class="col col-5">
 							<div class="infor-block">
-								<img src="images/logo.png" alt="Lorem ipsum dolor sit.">
+								<div class="avatar">
+									<img src="images/logo.png" alt="Lorem ipsum dolor sit.">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -74,10 +77,100 @@
 			</div>
 		</section>
 		<section id="learning">
-			<div class="container"></div>
+			<div class="container">
+				<div class="in-learning">
+					<div class="col-left">
+						
+					</div>
+					<div class="col-right rope">
+						<div class="term">
+							<div class="year">
+								2001
+							</div>
+							<div class="bubble">
+								<ul>
+									<li>Lorem ipsum dolor sit amet, consectetur.</li>
+									<li>Lorem ipsum dolor sit amet.</li>
+									<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, excepturi.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="term">
+							<div class="year">
+								2001
+							</div>
+							<div class="bubble">
+								<ul>
+									<li>Lorem ipsum dolor sit amet, consectetur.</li>
+									<li>Lorem ipsum dolor sit amet.</li>
+									<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, excepturi.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="term">
+							<div class="year">
+								2001
+							</div>
+							<div class="bubble">
+								<ul>
+									<li>Lorem ipsum dolor sit amet, consectetur.</li>
+									<li>Lorem ipsum dolor sit amet.</li>
+									<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, excepturi.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="term">
+							<div class="year">
+								2001
+							</div>
+							<div class="bubble">
+								<ul>
+									<li>Lorem ipsum dolor sit amet, consectetur.</li>
+									<li>Lorem ipsum dolor sit amet.</li>
+									<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, excepturi.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="term">
+							<div class="year">
+								2001
+							</div>
+							<div class="bubble">
+								<ul>
+									<li>Lorem ipsum dolor sit amet, consectetur.</li>
+									<li>Lorem ipsum dolor sit amet.</li>
+									<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, excepturi.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 		<section id="product">
-			<div class="container"></div>
+			<div class="container">
+				<div class="in-product">
+					<div class="title">
+						<h3>Lorem ipsum.</h3>
+					</div>
+					<div class="wrapper-product">
+						<div class="product">
+							<div class="product-title">
+								<a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
+							</div>
+							<div class="product-thumb">
+								<img src="images/bg_header.jpg" alt="Lorem ipsum dolor sit.">
+							</div>
+							<div class="product-desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deleniti, facilis ea neque, a repudiandae blanditiis ratione quam. Quaerat quos, assumenda commodi unde illum cum quas iste labore illo, adipisci!...
+							</div>
+							<div class="product-more">
+								<a href="#">Lorem ipsum</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 		<section id="blog">
 			<div class="container"></div>
