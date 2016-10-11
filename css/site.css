@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: "Hevertica", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     padding: 0;
     margin: 0 auto;
@@ -27,6 +27,8 @@ a:hover {
 .container {
     display: block;
     width: 100%;
+    width: 70%;
+    margin: 0 auto;
 }
 
 header {
@@ -105,3 +107,210 @@ header:before {
 
 
 /*****************PERSONAL************************/
+
+#personal {
+    padding: 7em 0;
+}
+
+#personal .col {
+    float: left;
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#personal .in-personal {
+    background: #fff url(../images/pt.png) repeat;
+    box-shadow: 2px 2px 1px 1px #333;
+    display: table;
+    width: 100%;
+    padding: 3em 0;
+    border: 10px solid #b5b5b5;
+    -webkit-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+}
+
+#personal .in-personal h3 {
+    text-transform: uppercase;
+    padding: 1em 15px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+#personal .content {
+    display: table;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    color: #333;
+    font-size: 1.2em;
+}
+
+#personal .content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#personal .content li {
+    display: table;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#personal .content li .prop,
+#personal .content li .val {
+    float: left;
+}
+
+#personal .content li .prop {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#personal .content li .val {
+    margin-left: 5px;
+}
+
+#personal .in-personal .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+#personal img {
+    border: 0;
+}
+
+
+/*************--LEARNING BLOCK--*************/
+
+#learning {
+    position: relative;
+    clear: both;
+    background: #26b79b;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+#learning .rope {
+    border-left: 0.5em solid;
+    position: relative;
+    display: table;
+    width: 100%;
+}
+
+#learning .term {
+    position: relative;
+    margin-bottom: 7em;
+    margin-top: 7em;
+    padding-left: 1em;
+}
+
+#learning .term:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: -0.95em;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 100%;
+    background: #fff;
+}
+
+#learning .year {
+    position: absolute;
+    left: -3.5em;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#learning .bubble {}
+
+#learning .bubble ul {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#learning .bubble ul li {
+    display: table;
+    margin-bottom: 1em;
+}
+
+
+/* ******************--PRODUCT--*********************** */
+
+#product {
+    padding: 7em 0;
+    background: #e8c576;
+}
+#product .title{
+
+}
+#product .title *{
+    padding:  3px 0;
+    margin-bottom: 1em;
+    font-size: 3em;
+    color: #795c1a;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px #000,1px 3px 0px #000;
+}
+#product .wrapper-product {
+    border: 0.5em solid #fff;
+    position: relative;
+}
+#product .wrapper-product:before{
+    content: '';
+    position: absolute;
+    bottom: -37px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: url(../images/shadow.png) no-repeat;
+    background-size: 100% 100%;
+}
+#product .product {
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+}
+
+#product .product .product-title {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.38);
+}
+
+#product .product .product-thumb {}
+
+#product .product .product-desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: table;
+    width: 100%;
+    line-height: 1.4;
+    padding: 1em;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.62);
+}
+
+#product .product .product-more {}
