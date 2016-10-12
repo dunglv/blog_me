@@ -33,7 +33,7 @@ a:hover {
 .container {
     display: block;
     width: 100%;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -71,6 +71,10 @@ a:hover {
     width: 100%;
 }
 
+.col-25 {
+    width: 25%;
+}
+
 header {
     background: #063320 url(../images/bg_header.jpg) no-repeat center;
     background-size: cover;
@@ -93,6 +97,7 @@ header:before {
 
 #menu {
     position: relative;
+    background: rgba(0, 0, 0, 0.58);
 }
 
 #menu ul {
@@ -110,7 +115,9 @@ header:before {
 
 #menu li a {
     display: block;
-    padding: 1em 1.2em;
+    padding: 2em 1em;
+    font-size: 1.2em;
+    font-weight: 100;
 }
 
 
@@ -120,7 +127,7 @@ header:before {
     min-height: 400px;
     width: 100%;
     position: relative;
-    padding: 5em 0;
+    padding: 11em 0 16em 0;
 }
 
 #quote .logo {
@@ -130,26 +137,34 @@ header:before {
 
 #quote .logo img {
     height: 100px;
-    width: 100px;
-    border: 1px solid #fff;
+    width: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.24);
     padding: 10px;
+    -webkit-filter: grayscale(30%);
+    -o-filter: grayscale(30%);
+    filter: grayscale(30%);
 }
 
 #quote h2 {
     text-align: center;
     color: #fff;
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 #quote .quote-text {
     text-align: center;
     color: #fff;
+    font-size: 1.5em;
+    font-weight: 100;
 }
 
 
 /*****************PERSONAL************************/
 
 #personal {
-    padding: 7em 0;
+    padding: 10em 0;
 }
 
 #personal .col {
@@ -291,10 +306,81 @@ header:before {
 }
 
 
+/********************EXPERIENCE***********************/
+
+#experience {
+    padding: 15em 0;
+    background: #000 url(../images/bg_experience.jpg) no-repeat center fixed;
+    background-size: cover;
+    color: #ddd;
+    position: relative;
+}
+#experience:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.68);
+    z-index: 0;
+}
+#experience .title{
+
+}
+#experience .title h3{
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 0 3em 0;
+    margin:  0;
+    text-transform: uppercase;
+}
+#experience .in-exper {
+    position: relative;
+}
+
+#experience .expr {
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    padding: 10px;
+}
+
+#experience .expr .per {
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#experience .expr .per span {
+    display: block;
+    padding: 5px 0px;
+    padding-left: 5px;
+    background: #187d11;
+}
+
+#experience .expr .per span._per_1 {
+    width: 30%
+}
+
+#experience .expr .per span._per_2 {
+    width: 15%;
+}
+
+#experience .expr .per span._per_3 {
+    width: 70%;
+}
+
+#experience .expr .per span._per_4 {
+    width: 86%;
+}
+
+#experience .expr .name-expr {}
+
+
 /* ******************--PRODUCT--*********************** */
 
 #product {
-    padding: 7em 0;
+    padding: 10em 0;
     background: #e8c576;
 }
 
@@ -362,7 +448,7 @@ header:before {
 /*****************************SKILLS**********************/
 
 #skill {
-    padding: 3em 0;
+    padding: 6em 0;
 }
 
 #skill .title {
@@ -788,7 +874,7 @@ header:before {
 /*************************BLOG BLOCK*****************************/
 
 #blog {
-    padding: 2em 0;
+    padding: 4em 0;
     background: #b3d8b9;
 }
 
@@ -864,7 +950,9 @@ header:before {
 
 /*************************VIDEO BLOCK****************************/
 
-#video {}
+#video {
+    padding: 7em 0;
+}
 
 #video .title {}
 
@@ -901,4 +989,157 @@ header:before {
 #video .frame-vid iframe {
     width: 100%;
     height: 100%;
+}
+
+
+/******************CONTACT BLOG***************/
+
+#contact {
+    padding: 8em 0;
+    background: #e3e6af;
+}
+
+#contact .in-contact {}
+
+#contact .title {
+    margin: 1em 0;
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+#contact .title h3 {
+    padding: 0 0;
+    margin: 0 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #333;
+}
+
+#contact ul.list-ct {
+    list-style: none;
+    padding: 2em 0;
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+#contact ul.list-ct:before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#contact ul.list-ct li {
+    display: table;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#contact ul.list-ct .ct-left {
+    float: left;
+    padding: 0em 2em;
+}
+
+#contact ul.list-ct .ct-left img {
+    width: 60px;
+    height: 60px;
+}
+
+#contact ul.list-ct .ct-left a {}
+
+#contact ul.list-ct .ct-right {
+    float: left;
+    font-size: 1.4em;
+    padding: 1.5em 0;
+    font-weight: 100;
+}
+
+
+/******************LOCATION*************************/
+
+#location {}
+
+#location .in-location {
+    position: relative;
+}
+
+#location .in-location:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    z-index: 3;
+}
+
+#location .in-location iframe {
+    -webkit-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+/* *****************COPYRIGHT BLOCK****************** */
+
+#copyright {
+    display: table;
+    width: 100%;
+    padding: 1em 0;
+    background: #000000;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+#copyright .in-copyright {}
+
+#copyright .cop-left {
+    float: left;
+    padding-top: 0.7em;
+}
+
+#copyright .cop-left a {
+    font-weight: 500;
+}
+
+#copyright .cop-left a:hover {
+    color: #fff;
+}
+
+#copyright .cop-right {
+    float: right;
+}
+
+#copyright .cop-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#copyright .cop-right li {
+    float: right;
+    padding-left: 10px;
+}
+
+#copyright .cop-right img {
+    height: 40px;
+    width: 40px;
+    -webkit-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#copyright .cop-right a {
+    display: block;
+}
+
+#copyright .cop-right a:hover img {
+    -webkit-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 0.9;
 }
