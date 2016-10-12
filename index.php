@@ -172,8 +172,137 @@
 				</div>
 			</div>
 		</section>
+		<section id="skill">
+			<div class="container">
+				<div class="in-skill">
+					<div class="title">
+						<h3>Lorem ipsum dolor sit amet.</h3>
+					</div>
+					<div class="wrap-skill">
+						<div class="person-obj">
+							<img src="images/me.png" alt="Lorem ipsum dolor sit amet.">
+							<div class="bub-item bub-1">
+								<h4>php, javascript..</h4>
+								<p>Lorem ipsum Lorem ipsum..</p>
+								<p>Lorem ipsum.</p>
+							</div>
+							<div class="bub-item bub-2">
+								<h4>php, javascript..</h4>
+								<p>Lorem ipsum.</p>
+								<p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur..</p>
+								<p>Lorem ipsum.</p>
+							</div>
+							<div class="bub-item bub-3">
+								<h4>php, javascript..</h4>
+								<p>Lorem ipsum Lorem ipsum dolor..</p>
+								<p>Lorem ipsum.</p>
+							</div>
+							<div class="bub-item bub-4">
+								<h4>php, javascript..</h4>
+								<p>Lorem ipsum. Lorem ipsum dolor.</p>
+								<p>Lorem ipsum.</p>
+								<p>Lorem ipsum.</p>
+							</div>
+							<div class="bub-item bub-5">
+								<h4>php, javascript..</h4>
+								<p>Lorem ipsum Lorem ipsum..</p>
+								<p>Lorem ipsum.</p>
+							</div>
+							<div class="bub-item bub-6">
+								<h4>php, javascript..</h4>
+								<p>Lorem ipsum.</p>
+								<p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur..</p>
+								<p>Lorem ipsum.</p>
+							</div>
+							<div class="bub-item bub-7">
+								<h4>php, javascript..</h4>
+								<p>Lorem ipsum Lorem ipsum dolor..</p>
+								<p>Lorem ipsum.</p>
+							</div>
+							<div class="bub-item bub-8">
+								<h4>php, javascript..</h4>
+								<p>Lorem ipsum. Lorem ipsum dolor.</p>
+								<p>Lorem ipsum.</p>
+								<p>Lorem ipsum.</p>
+							</div>
+							<div class="bub-item bub-9">
+								<h4>php, javascript..</h4>
+								<p>Lorem ipsum. Lorem ipsum dolor.</p>
+								<p>Lorem ipsum.</p>
+								<p>Lorem ipsum.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<section id="blog">
-			<div class="container"></div>
+			<div class="container">
+				<div class="in-blog">
+					<div class="title">
+						<h3>Lorem ipsum dolor sit amet.</h3>
+					</div>
+					<div class="grid-blog">
+						<div class="row">
+							<div class="item">
+								<div class="item-blog">
+									<div class="title-blog">
+										<h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
+									</div>
+									<div class="thumb-blog">
+										<img src="images/upload/thumb.jpg" alt="Lorem ipsum dolor sit amet.">
+									</div>
+									<div class="desc-blog">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, veritatis. Optio, facere, doloremque. Obcaecati ipsam ex asperiores facilis distinctio, nobis id omnis officiis alias, quasi commodi magni. Rem minus totam quis tenetur sit cumque laboriosam laudantium magnam optio, ipsam voluptatibus.
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-blog">
+									<div class="title-blog">
+										<h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
+									</div>
+									<div class="thumb-blog">
+										<img src="images/upload/thumb.jpg" alt="Lorem ipsum dolor sit amet.">
+									</div>
+									<div class="desc-blog">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, veritatis. Optio, facere, doloremque. Obcaecati ipsam ex asperiores facilis distinctio, nobis id omnis officiis alias, quasi commodi magni. Rem minus totam quis tenetur sit cumque laboriosam laudantium magnam optio, ipsam voluptatibus.
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-blog">
+									<div class="title-blog">
+										<h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
+									</div>
+									<div class="thumb-blog">
+										<img src="images/upload/thumb.jpg" alt="Lorem ipsum dolor sit amet.">
+									</div>
+									<div class="desc-blog">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, veritatis. Optio, facere, doloremque. Obcaecati ipsam ex asperiores facilis distinctio, nobis id omnis officiis alias, quasi commodi magni. Rem minus totam quis tenetur sit cumque laboriosam laudantium magnam optio, ipsam voluptatibus.
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-blog">
+									<div class="title-blog">
+										<h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
+									</div>
+									<div class="thumb-blog">
+										<img src="images/upload/thumb.jpg" alt="Lorem ipsum dolor sit amet.">
+									</div>
+									<div class="desc-blog">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, veritatis. Optio, facere, doloremque. Obcaecati ipsam ex asperiores facilis distinctio, nobis id omnis officiis alias, quasi commodi magni. Rem minus totam quis tenetur sit cumque laboriosam laudantium magnam optio, ipsam voluptatibus.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="plus-link">
+						<a href="#">Lorem ipsum dolor sit.</a>
+					</div>
+				</div>
+			</div>
 		</section>
 		<section id="video">
 			<div class="container"></div>
