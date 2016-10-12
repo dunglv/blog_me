@@ -147,6 +147,45 @@
 				</div>
 			</div>
 		</section>
+		<section id="experience">
+			<div class="container">
+				<div class="in-exper">
+					<div class="row">
+						<div class="col-10">
+							<div class="title">
+								<h3>Lorem ipsum dolor</h3>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col-25">
+							<div class="item expr">
+								<div class="per"><span class="_per _per_1">30%</span></div>
+								<div class="name-expr">Laravel</div>
+							</div>
+						</div>
+						<div class="col col-25">
+							<div class="item expr">
+								<div class="per"><span class="_per _per_2">15%</span></div>
+								<div class="name-expr">Wordpress</div>
+							</div>
+						</div>
+						<div class="col col-25">
+							<div class="item expr">
+								<div class="per"><span class="_per _per_3">70%</span></div>
+								<div class="name-expr">CakePHP</div>
+							</div>
+						</div>
+						<div class="col col-25">
+							<div class="item expr">
+								<div class="per"><span class="_per _per_4">80%</span></div>
+								<div class="name-expr">Other</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<section id="product">
 			<div class="container">
 				<div class="in-product">
@@ -331,11 +370,72 @@
 			</div>
 		</section>
 		<section id="contact">
-			<div class="container"></div>
+			<div class="container">
+				<div class="in-contact">
+					<div class="title">
+						<h3>Lorem ipsum dolor sit.</h3>
+					</div>
+					<ul class="list-ct">
+						<li>
+							<div class="ct-left">
+								<a href="#"><img src="images/list/chat.png" alt="Lorem ipsum."></a>
+							</div>
+							<div class="ct-right">
+								Lorem ipsum dolor sit.
+							</div>
+						</li>
+						<li>
+							<div class="ct-left">
+								<a href="#"><img src="images/list/headphones.png" alt="Lorem ipsum."></a>
+							</div>
+							<div class="ct-right">
+								Lorem ipsum dolor sit Lorem ipsum dolor..
+							</div>
+						</li>
+						<li>
+							<div class="ct-left">
+								<a href="#"><img src="images/list/smartphone.png" alt="Lorem ipsum."></a>
+							</div>
+							<div class="ct-right">
+								Lorem ipsum dolor sit Lorem ipsum..
+							</div>
+						</li>
+						<li>
+							<div class="ct-left">
+								<a href="#"><img src="images/list/teamwork.png" alt="Lorem ipsum."></a>
+							</div>
+							<div class="ct-right">
+								Lorem ipsum dolor sit Lorem ipsum dolor sit amet, consectetur..
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="location">
+			<div class="in-location">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4569.0341281874!2d108.46215699205285!3d15.640492408466532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1476289291405" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>	
+			</div>
 		</section>
 	</main>
 	<footer>
-		
+		<div id="copyright">
+			<div class="container">
+				<div class="in-copyright">
+					<div class="cop-left">
+						Copyright 2016&copy;luongvietdung.com - Powered by <a href="#">Lương Viết Dung</a>
+					</div>
+					<div class="cop-right">
+						<ul>
+							<li><a href="#"><img src="images/list/facebook.png" alt=""></a></li>
+							<li><a href="#"><img src="images/list/google-plus.png" alt=""></a></li>
+							<li><a href="#"><img src="images/list/twitter.png" alt=""></a></li>
+							<li><a href="#"><img src="images/list/instagram.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 	</footer>
 </body>
 </html>
