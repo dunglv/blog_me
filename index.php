@@ -244,7 +244,7 @@
 					</div>
 					<div class="grid-blog">
 						<div class="row">
-							<div class="item">
+							<div class="col-5 item">
 								<div class="item-blog">
 									<div class="title-blog">
 										<h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
@@ -257,7 +257,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="item">
+							<div class="col-5 item">
 								<div class="item-blog">
 									<div class="title-blog">
 										<h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
@@ -270,7 +270,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="item">
+							<div class="col-5 item">
 								<div class="item-blog">
 									<div class="title-blog">
 										<h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
@@ -283,7 +283,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="item">
+							<div class="col-5 item">
 								<div class="item-blog">
 									<div class="title-blog">
 										<h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
@@ -305,7 +305,30 @@
 			</div>
 		</section>
 		<section id="video">
-			<div class="container"></div>
+			<div class="container">
+				<div class="in-video">
+					<div class="row">
+						<div class="col col-10">
+							<div class="title">
+								<h3>Lorem ipsum dolor sit amet.</h3>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col col-4 text">
+							<div class="in-text">
+								<div class="h4">Lorem ipsum dolor sit amet, consectetur.</div>
+								<div class="sub-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quasi, nulla, distinctio incidunt temporibus voluptatibus maiores nisi iure ea numquam ratione nesciunt perferendis ipsa inventore, nemo consequuntur officiis voluptatum fugit magnam quisquam officia. Placeat dolores, nesciunt dicta aliquid reiciendis quas!</div>
+							</div>
+						</div>
+						<div class="col col-6 video">
+							<div class="frame-vid">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/D8qlTaOgcd0" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 		<section id="contact">
 			<div class="container"></div>
