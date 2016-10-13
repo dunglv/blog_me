@@ -30,13 +30,30 @@ $(document).ready(function() {
     });
 
     $('.cv-menu').on('click', function() {
-		if(!$(this).hasClass('focus')){
-			$(this).addClass('focus');
-			$('#menu ul').addClass('open');
-		}else{
-			$(this).removeClass('focus');
-			$('#menu ul').removeClass('open');
-		}
-		return false;
-	});	
+        if (!$(this).hasClass('focus')) {
+            $(this).addClass('focus');
+            $('#menu ul').addClass('open');
+        } else {
+            $(this).removeClass('focus');
+            $('#menu ul').removeClass('open');
+        }
+        return false;
+    });
+    if ($(window).scrollTop() <= 10) {
+        $('._goToTop').hide(0);
+    }
+    $(window).on('scroll', function() {
+        var td = $(this).scrollTop();
+        if (td == 0) {
+            $('._goToTop').fadeOut(200);
+        } else {
+            $('._goToTop').fadeIn(200);
+        }
+    });
+
+    $('._goToTop').on('click', function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500);
+    });
 });
