@@ -2,23 +2,37 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Text</title>
-	<link rel="stylesheet" href="css/site.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&subset=vietnamese" rel="stylesheet">
+	<link rel="stylesheet" href="libs/carousel/owl.carousel.css">
+	<link rel="stylesheet" href="libs/carousel/owl.theme.css">
+	<link rel="stylesheet" href="css/icon/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/site.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="libs/carousel/owl.carousel.min.js"></script>
+	<script src="js/scrollSpeed.js"></script>
+	<script src="js/site.js"></script>
 </head>
 <body>
 	<header>
 		<nav id="menu">
 			<div class="container">
+				<div class="cv-menubar">
+					<div class="cv-menu">
+						<span></span>
+					</div>
+				</div>
 				<ul class="main-menu">
-					<li><a href="#">Trang chủ</a></li>
-					<li><a href="#">Giới thiệu</a></li>
-					<li><a href="#">Thông tin</a></li>
-					<li><a href="#">Học tập</a></li>
-					<li><a href="#">Sản phẩm</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Video</a></li>
-					<li><a href="#">Liên hệ</a></li>
+					<li><a href="">Trang chủ</a></li>
+					<li><a href="#quote">Giới thiệu</a></li>
+					<li><a href="#personal">Thông tin</a></li>
+					<li><a href="#learning">Học tập</a></li>
+					<li><a href="#experience">Kinh nghiệm</a></li>
+					<li><a href="#product">Sản phẩm</a></li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#video">Video</a></li>
+					<li><a href="#location">Liên hệ</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -31,6 +45,11 @@
 				<div class="quote-text">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda adipisci hic, quae!
 				</div>
+				<div class="quote-share">
+					<a href="#" title="Chia sẻ trang này lên Facebook"><i class="fa fa-facebook"></i></a>
+					<a href="#" title="Chia sẻ trang này lên Google+"><i class="fa fa-google-plus"></i></a>
+					<a href="#" title="Chia sẻ trang này lên Twitter"><i class="fa fa-twitter"></i></a>
+				</div>
 			</div>
 		</section>
 	</header>
@@ -38,36 +57,39 @@
 		<section id="personal">
 			<div class="container">
 				<div class="in-personal">
-					<div class="title">
-						<h3>
-							Lorem ipsum dolor sit.
-						</h3>
-					</div>
-					<div class="content">
-						<div class="col col-5">
-							<ul class="infor-block">
-								<li>
-									<div class="prop">name</div>
-									<div class="val">Lorem ipsum dolor.</div>
-								</li>
-								<li>
-									<div class="prop">name</div>
-									<div class="val">Lorem ipsum dolor.</div>
-								</li>
-								<li>
-									<div class="prop">name</div>
-									<div class="val">Lorem ipsum dolor.</div>
-								</li>
-								<li>
-									<div class="prop">name</div>
-									<div class="val">Lorem ipsum dolor.</div>
-								</li>
-							</ul>
-						</div> <!-- end col -->
-						<div class="col col-5">
-							<div class="infor-block">
-								<div class="avatar">
-									<img src="images/logo.png" alt="Lorem ipsum dolor sit.">
+					<div class="frame-personal">
+						<div class="title">
+							<h3>
+								Lorem ipsum dolor sit.
+							</h3>
+						</div>
+						<div class="content">
+							<div class="col col-5 list-info">
+								<ul class="infor-block">
+									<li>
+										<div class="prop">Tên:</div>
+										<div class="val">Nguyen Van An</div>
+									</li>
+									<li>
+										<div class="prop">Ngày sinh:</div>
+										<div class="val">09/10/1993</div>
+									</li>
+									<li>
+										<div class="prop">Nơi sinh:</div>
+										<div class="val">Thôn A, xã Tiên An, Tam Kỳ, Quảng Nam</div>
+									</li>
+									<li>
+										<div class="prop">Nghề nghiệp:</div>
+										<div class="val">Quản lý hành chính nhân sự</div>
+									</li>
+								</ul>
+							</div> <!-- end col -->
+							<div class="col col-5">
+								<div class="img-infor">
+									<div class="avatar">
+										<img src="images/avatar.png" alt="Lorem ipsum dolor sit.">
+									</div>
+									<div class="nick">Nguyen Van An</div>
 								</div>
 							</div>
 						</div>
@@ -192,13 +214,13 @@
 					<div class="title">
 						<h3>Lorem ipsum.</h3>
 					</div>
-					<div class="wrapper-product">
+					<div id="wrapper_product" class="wrapper-product owl-carousel">
 						<div class="product">
 							<div class="product-title">
 								<a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
 							</div>
 							<div class="product-thumb">
-								<img src="images/bg_header.jpg" alt="Lorem ipsum dolor sit.">
+								<img src="images/slider/slider-1.jpg" alt="Lorem ipsum dolor sit.">
 							</div>
 							<div class="product-desc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deleniti, facilis ea neque, a repudiandae blanditiis ratione quam. Quaerat quos, assumenda commodi unde illum cum quas iste labore illo, adipisci!...
@@ -206,7 +228,50 @@
 							<div class="product-more">
 								<a href="#">Lorem ipsum</a>
 							</div>
-						</div>
+						</div> <!-- end product -->
+
+						<div class="product">
+							<div class="product-title">
+								<a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
+							</div>
+							<div class="product-thumb">
+								<img src="images/slider/slider-2.jpg" alt="Lorem ipsum dolor sit.">
+							</div>
+							<div class="product-desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deleniti, facilis ea neque, a repudiandae blanditiis ratione quam. Quaerat quos, assumenda commodi unde illum cum quas iste labore illo, adipisci!...
+							</div>
+							<div class="product-more">
+								<a href="#">Lorem ipsum</a>
+							</div>
+						</div> <!-- end product -->
+						<div class="product">
+							<div class="product-title">
+								<a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
+							</div>
+							<div class="product-thumb">
+								<img src="images/slider/slider-3.jpg" alt="Lorem ipsum dolor sit.">
+							</div>
+							<div class="product-desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deleniti, facilis ea neque, a repudiandae blanditiis ratione quam. Quaerat quos, assumenda commodi unde illum cum quas iste labore illo, adipisci!...
+							</div>
+							<div class="product-more">
+								<a href="#">Lorem ipsum</a>
+							</div>
+						</div> <!-- end product -->
+						<div class="product">
+							<div class="product-title">
+								<a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
+							</div>
+							<div class="product-thumb">
+								<img src="images/slider/slider-4.jpg" alt="Lorem ipsum dolor sit.">
+							</div>
+							<div class="product-desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deleniti, facilis ea neque, a repudiandae blanditiis ratione quam. Quaerat quos, assumenda commodi unde illum cum quas iste labore illo, adipisci!...
+							</div>
+							<div class="product-more">
+								<a href="#">Lorem ipsum</a>
+							</div>
+						</div> <!-- end product -->
 					</div>
 				</div>
 			</div>
@@ -219,7 +284,6 @@
 					</div>
 					<div class="wrap-skill">
 						<div class="person-obj">
-							<img src="images/me.png" alt="Lorem ipsum dolor sit amet.">
 							<div class="bub-item bub-1">
 								<h4>php, javascript..</h4>
 								<p>Lorem ipsum Lorem ipsum..</p>
@@ -270,6 +334,8 @@
 								<p>Lorem ipsum.</p>
 								<p>Lorem ipsum.</p>
 							</div>
+							<img src="images/me.png" alt="Lorem ipsum dolor sit amet.">
+
 						</div>
 					</div>
 				</div>
@@ -283,7 +349,7 @@
 					</div>
 					<div class="grid-blog">
 						<div class="row">
-							<div class="col-5 item">
+							<div class="col col-5 item">
 								<div class="item-blog">
 									<div class="title-blog">
 										<h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
@@ -296,7 +362,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-5 item">
+							<div class="col col-5 item">
 								<div class="item-blog">
 									<div class="title-blog">
 										<h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
@@ -309,7 +375,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-5 item">
+							<div class="col col-5 item">
 								<div class="item-blog">
 									<div class="title-blog">
 										<h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
@@ -322,7 +388,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-5 item">
+							<div class="col col-5 item">
 								<div class="item-blog">
 									<div class="title-blog">
 										<h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
@@ -414,7 +480,7 @@
 		</section>
 		<section id="location">
 			<div class="in-location">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4569.0341281874!2d108.46215699205285!3d15.640492408466532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1476289291405" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>	
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30736.864298322645!2d108.44046361379318!3d15.639234340768326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3169de8d2781517d%3A0x76789bb32a4ec347!2zVGjDoW5oIHRo4bqldCBUaMOhaSBIw7Jh!5e0!3m2!1svi!2s!4v1476332229923" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 		</section>
 	</main>
