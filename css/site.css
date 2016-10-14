@@ -268,11 +268,26 @@ header:before {
     width: 100%;
     position: relative;
     padding: 6em 0 16em 0;
+    background: #063320 url(../images/bg_header.jpg) no-repeat center;
+    z-index: 1;
+}
+
+#quote:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #063320;
+    opacity: 0.8;
+    z-index: 0;
 }
 
 #quote .logo {
     text-align: center;
     padding: 2em 0 0;
+    position: relative;
 }
 
 #quote .logo img {
@@ -292,6 +307,8 @@ header:before {
     font-weight: 500;
     text-transform: uppercase;
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.76);
+    position: relative;
+    z-index: 1;
 }
 
 #quote .quote-text {
@@ -299,6 +316,8 @@ header:before {
     color: rgba(255, 255, 255, 0.84);
     font-size: 1.5em;
     font-weight: 100;
+    position: relative;
+    z-index: 1;
 }
 
 #quote .quote-share {
@@ -696,9 +715,15 @@ header:before {
     text-shadow: 2px 2px 1px #000, 1px 3px 0px #000;
 }
 
+#product .list-product{
+
+}
+
 #product .wrapper-product {
     border: 0.5em solid #fff;
     position: relative;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #product .wrapper-product:before {
@@ -713,9 +738,11 @@ header:before {
 }
 
 #product .product {
-    overflow: hidden;
     position: relative;
-    height: 300px;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 #product .product .product-title {
@@ -1284,7 +1311,26 @@ header:before {
     font-weight: 500;
 }
 
+/*----------BLOG LIST---*/
+#blog.blog-list{
 
+}
+#blog.blog-list .plus-link{
+    text-align: center;
+}
+#blog.blog-list .plus-link span.load-more{
+    display: inline-block;
+    background: #fff;
+    padding: 8px 10px;
+    color: #028c33;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: underline;
+}
+#blog.blog-list .plus-link span.load-more:hover{
+    color: #333;
+    text-shadow: 0 0 1px #333;
+}
 /*---------BLOG DETAIL-->*/
 
 #blog.detail {
@@ -1301,7 +1347,15 @@ header:before {
     font-size: 1.7em;
 }
 
-#blog .detail-blog .title-p a {}
+#blog .detail-blog .title-p a {
+    white-space: normal;
+    overflow: auto;
+}
+
+#blog.detail .grid-blog .item-blog .title-blog a{
+    white-space: normal;
+    overflow: inherit;
+}
 
 #blog .detail-blog .desc-p {
     margin: 1em 0;
@@ -1555,10 +1609,11 @@ header:before {
     display: table;
     width: 100%;
     padding: 1em 0;
-    background: #000000;
+    background: #141414 url(../images/pt4.png) repeat;
     color: #fff;
     font-size: 1.2em;
     font-weight: 100;
+    background-size: 90px;
 }
 
 #copyright .in-copyright {}
@@ -1915,6 +1970,14 @@ header:before {
     #skill .person-obj img {
         margin-top: 30px;
     }
+    #product .wrapper-product{
+        width: 90%;
+    }
+    #product .product{
+        height: 400px;
+    }
+
+
     #copyright .cop-left,
     #copyright .cop-right {
         float: none;
@@ -1968,6 +2031,11 @@ header:before {
     }
     #product .wrapper-product {
         margin-bottom: 3em;
+        width: 100%;
+    }
+
+    #product .product{
+        height: 300px;
     }
     /*VIDEO*/
     #video .text,
@@ -2067,6 +2135,7 @@ header:before {
     }
     /*Product*/
     #product .product {
+        min-height: 200px;
         /*height: 200px;*/
     }
 }

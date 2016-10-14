@@ -1,6 +1,8 @@
 <?php 
 if (isset($_GET['url'])) {
-	$uri = (string)$_GET['url'];
+	// $uri = settype($_GET['url'], "String");
+	$uri = $_GET['url'];
+	// echo $uri; die();
 	$sql_blog = 'SELECT *, DATE_FORMAT(created_at, "%d/%m/%Y") as time_created FROM posts WHERE type="post" AND status=1 AND url="'.$uri.'" LIMIT 1';
 	$exc_blog = mysqli_query($dbconnect, $sql_blog);
 	if ($exc_blog) {
@@ -37,7 +39,6 @@ if (isset($_GET['url'])) {
 						</div>
 						<div class="vd-comment other-item">
 							<div class="row">
-								
 								<div class="col col-3 other-p">
 								<?php 
 									$sql_blog_other = 'SELECT * FROM posts WHERE type="post" AND status=1 AND id <> "'.$row['id'].'" LIMIT 2';

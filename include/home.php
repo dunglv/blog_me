@@ -1,4 +1,20 @@
 <main>
+		<section id="quote">
+			<div class="container">
+				<div class="logo">
+					<img src="<?php echo $home_url; ?>/images/logo.png" alt="Lorem ipsum dolor.">
+				</div>
+				<h2>Lorem ipsum dolor.</h2>
+				<div class="quote-text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda adipisci hic, quae!
+				</div>
+				<div class="quote-share">
+					<a href="#" title="Chia sẻ trang này lên Facebook"><i class="fa fa-facebook"></i></a>
+					<a href="#" title="Chia sẻ trang này lên Google+"><i class="fa fa-google-plus"></i></a>
+					<a href="#" title="Chia sẻ trang này lên Twitter"><i class="fa fa-twitter"></i></a>
+				</div>
+			</div>
+		</section>
 		<section id="personal">
 			<div class="container">
 				<div class="in-personal">
@@ -163,64 +179,66 @@
 					<div class="title">
 						<h3>Lorem ipsum.</h3>
 					</div>
-					<div id="wrapper_product" class="wrapper-product owl-carousel">
-						<div class="product">
-							<div class="product-title">
-								<a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
-							</div>
-							<div class="product-thumb">
-								<img src="<?php echo $home_url; ?>/images/slider/slider-1.jpg" alt="Lorem ipsum dolor sit.">
-							</div>
-							<div class="product-desc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deleniti, facilis ea neque, a repudiandae blanditiis ratione quam. Quaerat quos, assumenda commodi unde illum cum quas iste labore illo, adipisci!...
-							</div>
-							<div class="product-more">
-								<a href="#">Lorem ipsum</a>
-							</div>
-						</div> <!-- end product -->
-
-						<div class="product">
-							<div class="product-title">
-								<a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
-							</div>
-							<div class="product-thumb">
-								<img src="<?php echo $home_url; ?>/images/slider/slider-2.jpg" alt="Lorem ipsum dolor sit.">
-							</div>
-							<div class="product-desc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deleniti, facilis ea neque, a repudiandae blanditiis ratione quam. Quaerat quos, assumenda commodi unde illum cum quas iste labore illo, adipisci!...
-							</div>
-							<div class="product-more">
-								<a href="#">Lorem ipsum</a>
-							</div>
-						</div> <!-- end product -->
-						<div class="product">
-							<div class="product-title">
-								<a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
-							</div>
-							<div class="product-thumb">
-								<img src="<?php echo $home_url; ?>/images/slider/slider-3.jpg" alt="Lorem ipsum dolor sit.">
-							</div>
-							<div class="product-desc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deleniti, facilis ea neque, a repudiandae blanditiis ratione quam. Quaerat quos, assumenda commodi unde illum cum quas iste labore illo, adipisci!...
-							</div>
-							<div class="product-more">
-								<a href="#">Lorem ipsum</a>
-							</div>
-						</div> <!-- end product -->
-						<div class="product">
-							<div class="product-title">
-								<a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
-							</div>
-							<div class="product-thumb">
-								<img src="<?php echo $home_url; ?>/images/slider/slider-4.jpg" alt="Lorem ipsum dolor sit.">
-							</div>
-							<div class="product-desc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deleniti, facilis ea neque, a repudiandae blanditiis ratione quam. Quaerat quos, assumenda commodi unde illum cum quas iste labore illo, adipisci!...
-							</div>
-							<div class="product-more">
-								<a href="#">Lorem ipsum</a>
-							</div>
-						</div> <!-- end product -->
+					<div class="list-product">
+						<div id="wrapper_product" class="wrapper-product owl-carousel">
+							<div class="product">
+								<div class="product-title">
+									<a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
+								</div>
+								<div class="product-thumb">
+									<img src="<?php echo $home_url; ?>/images/slider/slider-1.jpg" alt="Lorem ipsum dolor sit.">
+								</div>
+								<div class="product-desc">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deleniti, facilis ea neque, a repudiandae blanditiis ratione quam. Quaerat quos, assumenda commodi unde illum cum quas iste labore illo, adipisci!...
+								</div>
+								<div class="product-more">
+									<a href="#">Lorem ipsum</a>
+								</div>
+							</div> <!-- end product -->
+						
+							<div class="product">
+								<div class="product-title">
+									<a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
+								</div>
+								<div class="product-thumb">
+									<img src="<?php echo $home_url; ?>/images/slider/slider-2.jpg" alt="Lorem ipsum dolor sit.">
+								</div>
+								<div class="product-desc">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deleniti, facilis ea neque, a repudiandae blanditiis ratione quam. Quaerat quos, assumenda commodi unde illum cum quas iste labore illo, adipisci!...
+								</div>
+								<div class="product-more">
+									<a href="#">Lorem ipsum</a>
+								</div>
+							</div> <!-- end product -->
+							<div class="product">
+								<div class="product-title">
+									<a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
+								</div>
+								<div class="product-thumb">
+									<img src="<?php echo $home_url; ?>/images/slider/slider-3.jpg" alt="Lorem ipsum dolor sit.">
+								</div>
+								<div class="product-desc">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deleniti, facilis ea neque, a repudiandae blanditiis ratione quam. Quaerat quos, assumenda commodi unde illum cum quas iste labore illo, adipisci!...
+								</div>
+								<div class="product-more">
+									<a href="#">Lorem ipsum</a>
+								</div>
+							</div> <!-- end product -->
+							<div class="product">
+								<div class="product-title">
+									<a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
+								</div>
+								<div class="product-thumb">
+									<img src="<?php echo $home_url; ?>/images/slider/slider-4.jpg" alt="Lorem ipsum dolor sit.">
+								</div>
+								<div class="product-desc">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deleniti, facilis ea neque, a repudiandae blanditiis ratione quam. Quaerat quos, assumenda commodi unde illum cum quas iste labore illo, adipisci!...
+								</div>
+								<div class="product-more">
+									<a href="#">Lorem ipsum</a>
+								</div>
+							</div> <!-- end product -->
+						</div>
 					</div>
 				</div>
 			</div>
