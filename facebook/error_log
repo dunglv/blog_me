@@ -1,0 +1,4 @@
+[22-Feb-2017 04:19:00 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/luongvi1/public_html/facebook/index.php on line 5
+[22-Feb-2017 10:14:00 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/luongvi1/public_html/facebook/source/view/get-post-group.php on line 2
+[22-Feb-2017 10:14:21 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/luongvi1/public_html/facebook/source/view/get-post-group.php on line 2
+[22-Feb-2017 10:14:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/luongvi1/public_html/facebook/source/view/get-post-group.php on line 2

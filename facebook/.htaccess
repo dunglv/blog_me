@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^funny-application$ index.php?page=funny-application
+RewriteRule ^get-post-page$ index.php?page=get-post-page
+RewriteRule ^get-post-group$ index.php?page=get-post-group

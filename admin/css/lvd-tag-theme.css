@@ -1,0 +1,70 @@
+.lvd-tag {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 3px;
+    clear: both;
+    display: table;
+    width: 100%;
+}
+
+.lvd-tag .lvd-tag-content {
+    float: left;
+    width: auto;
+}
+
+.lvd-tag .lvd-tag-content .lvd-tag-item {
+    padding: 5px 10px 5px 5px;
+    background: #808080;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 1.2;
+}
+.lvd-tag .lvd-tag-complete{
+	position: relative;
+	float: left;
+	width: auto;
+}
+.lvd-tag .lvd-tag-input {
+    float: none;
+    display: block;
+    width: 100%;
+    width: auto !important;
+    background: inherit !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+.lvd-tag .lvd-tag-input:focus{
+	outline: initial;
+}
+.lvd-tag .lvd-tag-complete ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	max-width: 200px;
+	max-height: 200px;
+	overflow-y: auto;
+	min-width: 130px;
+	background: #fff;
+	box-shadow: 0 0 1px #ccc;
+}
+.lvd-tag .lvd-tag-complete ul li{
+	padding: 7px 5px;
+	border-bottom: 1px solid #ddd;
+	color: #333;
+}
+.lvd-tag .lvd-tag-complete ul li:last-child{
+	border-bottom: 0;
+}
+.lvd-tag .lvd-tag-complete ul li:hover{
+	cursor: pointer;
+	background: #f1f1f1;
+}

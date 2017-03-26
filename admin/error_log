@@ -1,0 +1,4 @@
+[22-Feb-2017 03:57:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/luongvi1/public_html/admin/partials/home.php on line 59
+[22-Feb-2017 03:57:03 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/luongvi1/public_html/admin/partials/home.php on line 81
+[22-Feb-2017 03:57:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/luongvi1/public_html/admin/partials/home.php on line 59
+[22-Feb-2017 03:57:29 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/luongvi1/public_html/admin/partials/home.php on line 81
