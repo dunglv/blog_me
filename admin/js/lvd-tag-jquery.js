@@ -8,7 +8,7 @@
 	// Press Up Key: Comma(,)/Dot(.)/Semicolon(;)
 	// Result return: array(); ['tag1', tag2,...tagn]
 	$.fn.lvd_tag =  function(){
-		
+
 		var lvd_tag = $('#lvd_tag');
 		
 		return this.each(function(){

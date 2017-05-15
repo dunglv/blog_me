@@ -6,13 +6,20 @@ $_hostname = $_SERVER['HTTP_HOST'];
 $temp_uri = $_SERVER['REQUEST_URI'];
 
 $str_uri = str_replace('index.php', '',  $temp_uri);
+$full_url = $_protocol.'://'.$_hostname.$temp_uri;
+if (in_array('blog_me', explode('/', $full_url))) {
+	$home_url = rtrim($_protocol.'://'.$_hostname.'').'/blog_me';
+} else {
+	$home_url = rtrim($_protocol.'://'.$_hostname.'');
+}
+
 // $str_uri = split( '\?', $str_uri);
 // $_uri = $str_uri[0];
 // echo $_uri;
-$home_url = rtrim($_protocol.'://'.$_hostname.'');
 // echo dirname(__FILE__);
 
 // exit();
+define('_HOME_URL_', $home_url);
 
 require_once(realpath(dirname(__FILE__).'/database/connect.php'));
 // ******************************

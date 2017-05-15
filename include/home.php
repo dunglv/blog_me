@@ -11,7 +11,7 @@
 				<div class="quote-share">
 					<a href="https://facebook.com/sharer.php?u=<?php echo $home_url; ?>" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=500');return false;" title="Chia sẻ lên facebook"><i class="fa fa-facebook"></i></a>
 					<a href="https://plus.google.com/share?url=<?php echo $home_url; ?>" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=500');return false;" title="Chia sẻ lên google+"><i class="fa fa-google-plus"></i></a>
-					<a href="https://twitter.com/intent/tweet?original_referer=<?php echo $home_url; ?>&ref_src=twsrc%5Etfw&text=<?php echo $row['title']; ?>&tw_p=tweetbutton&url=<?php echo $home_url; ?>&via=luongvietdung" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=500');return false;" title="Chia sẻ lên twitter"><i class="fa fa-twitter"></i></a>
+					<a href="https://twitter.com/intent/tweet?original_referer=<?php echo $home_url; ?>&ref_src=twsrc%5Etfw&text=&tw_p=tweetbutton&url=<?php echo $home_url; ?>&via=luongvietdung" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=500');return false;" title="Chia sẻ lên twitter"><i class="fa fa-twitter"></i></a>
 				</div>
 			</div>
 		</section>

@@ -1,28 +1,30 @@
 RewriteEngine On
 RewriteBase /
-RewriteRule ^article/?$ index.php?section=blog
-RewriteRule ^tag/?$ index.php?section=tag
-RewriteRule ^404/?$ index.php?section=404
-RewriteRule ^article/([a-zA-Z0-9_-]+)/?$ index.php?section=detail&url=$1
-RewriteRule ^article/more/?$ index.php?section=post-more
+#ErrorDocument 404 %{REQUEST_URI}/index.php?section=404
+RewriteRule ^tag/?$ /blog_me/index.php?section=tag
+RewriteRule ^article/more/?$ /blog_me/index.php?section=post-more
+RewriteRule ^404/?$  /blog_me/index.php?section=404
+RewriteRule ^article/?$ /blog_me/index.php?section=blog
+RewriteRule ^article/([a-zA-Z0-9_-]+)/?$ /blog_me/index.php?section=detail&url=$1
 
 
-RewriteRule ^administrator$ /admin/index.php
-RewriteRule ^administrator/$ /admin/index.php
-
-RewriteRule ^administrator/page/([0-9]+)$ admin/index.php?page=$1
-
-RewriteRule ^administrator/login$ /admin/auth/login.php
-RewriteRule ^administrator/check-login$ /admin/auth/checkLogin.php
-RewriteRule ^administrator/create/?$ /admin/index.php?action=create
-RewriteRule ^administrator/post/add/?$ /admin/index.php?action=add
 
 
-RewriteRule ^administrator/post/([0-9]+)/delete$ /admin/index.php?post=$1&action=post-delete
-RewriteRule ^administrator/ajax/post/post-delete-list$ /admin/partials/post-delete-list.php
-#RewriteRule ^administrator/post/([0-9]+)/destroy$ /admin/partials/post-delete.php?action=delete&post=$1
+RewriteRule ^administrator/?$ /blog_me/admin/index.php
 
-RewriteRule ^administrator/post/([0-9]+)/edit$ /admin/index.php?action=post-edit&post=$1
-RewriteRule ^administrator/post/([0-9]+)/update$ /admin/partials/post-update.php
-RewriteRule ^administrator/post/([0-9]+)/update/$ /admin/partials/post-update.php
-#RewriteRule ^administrator/post/([0-9_-]+)/update$ /admin/partials/editpost.php?action=delete&post=$1
+RewriteRule ^administrator/page/([0-9]+)$ /blog_me/admin/index.php?page=$1
+
+RewriteRule ^administrator/login$ /blog_me/admin/auth/login.php
+RewriteRule ^administrator/check-login$ /blog_me/admin/auth/checkLogin.php
+RewriteRule ^administrator/create/?$ /blog_me/admin/index.php?action=create
+RewriteRule ^administrator/post/add/?$ /blog_me/admin/index.php?action=add
+
+
+RewriteRule ^administrator/post/([0-9]+)/delete$ /blog_me/admin/index.php?post=$1&action=post-delete
+RewriteRule ^administrator/ajax/post/post-delete-list$ /blog_me/admin/partials/post-delete-list.php
+#RewriteRule ^administrator/post/([0-9]+)/destroy$ /blog_me/admin/partials/post-delete.php?action=delete&post=$1
+
+RewriteRule ^administrator/post/([0-9]+)/edit$ /blog_me/admin/index.php?action=post-edit&post=$1
+RewriteRule ^administrator/post/([0-9]+)/update$ /blog_me/admin/partials/post-update.php
+RewriteRule ^administrator/post/([0-9]+)/update/$ /blog_me/admin/partials/post-update.php
+#RewriteRule ^administrator/post/([0-9_-]+)/update$ /blog_me/admin/partials/editpost.php?action=delete&post=$1
